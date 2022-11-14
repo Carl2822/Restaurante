@@ -1,0 +1,175 @@
+body
+{
+    background-color: blanchedalmond;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;            
+}
+
+   #main_wrapper                      
+   {
+    width: 900px;                     
+    margin: auto;
+   }
+
+   /* Encabezado */ 
+   header h1
+   {
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 16px;
+    font-weight: normal;
+   }
+
+   header h2
+   {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 0px;           
+    font-weight: normal;
+   }
+
+   #logo, header h1            
+   {
+    display: inline-block;    
+    margin-bottom: 0px;        
+   } 
+
+   #main_title
+   {
+    display: inline-block;             
+   }
+
+   
+   nav
+   {
+    display: inline-block;       
+    width: 740px;                
+    text-align: left;
+   }
+
+   nav li
+   {
+    display: inline-block;      
+    margin-right: 15px;
+   }
+
+   nav ul
+   {
+    list-style-type: none;       
+   }
+
+   nav a:hover
+   {
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+   }
+
+   nav a
+   {
+    color: violet;
+   }
+
+   /*------*/
+   #Options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    background: pink;
+   }
+   button {
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: lightsalmon;
+    color: #dcc2e4;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+   
+    /*-----*/
+    .form{
+        background-color: #fff;
+        margin: auto;
+        width: 90%;
+        max-width: 400px;
+        padding: 4.5em 3em;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+    }
+
+   article, aside
+   {
+    display: inline-block;    
+    vertical-align: top;      
+    text-align: justify;
+   }
+
+
+
+   article
+   {
+    width: 625px;
+    margin-right: 15px;
+   }
+   
+   aside
+   {
+    width: 235px;
+    position: relative;                 
+    background-color: darkgrey;
+    box-shadow: 0px 2px 5px black;   
+    color: white;
+    border-radius: 5px;                 
+   }
+
+   #chef_2{
+    text-align: center;
+   }
+
+   #imgaside
+   {
+    text-align: center;
+   }
+
+   /* footer */
+   footer p, footer ul
+   {
+    font-size: 12px;
+   }
+
+   footer h1
+   {
+    font-size: 14px;
+   }
+
+   #tweet, #my_pictures, #my_friends
+   {
+    display: inline-block;
+    vertical-align: top;
+   }
+
+   #tweet{
+    width: 28%;
+   }
+
+   #my_pictures{
+    width: 35%;
+   }
+
+   #my_friends{
+    width: 30%;
+   }
+
+   #my_friends{
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-top: 0px
+    padding-left: 2px;
+   
+   }
+
+   
